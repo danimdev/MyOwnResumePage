@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="lightbox.min.css">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</head>
+<body>
+    <div class="Menu">
+        <a style="color: white; margin-right: 50px;" href="index.html">Home</a>
+        <a style="color: white; margin-right: 50px;" href="Projects.html">Projects</a>
+        <a style="color: white;" href="Contact.html">Contact Me</a>
+    </div>
+
+    <div class="ContentBackground">
+    <h1>Contact Page</h1>
+
+    <div class="Formular">
+        <form method="post">
+            <input id="NameInput" type="text" placeholder="Your Name..." style="margin-bottom: 25px; width: 20%;">
+            <br>
+            <input id="EmailInput" type="email" placeholder="Your Email..." style="margin-bottom: 25px; width: 20%;">
+            <br>
+            <input id="SubjectInput" type="text" placeholder="Subject..." style="width: 20%;">
+            <br>
+            <textarea cols="50" rows="10" id="MessageInput" style=" border-radius: 10%; border-color: gray; border-width: 10px; margin: 50px 50px;" placeholder="Message..."></textarea>
+            <br>
+            <button id="btn" formmethod="post" type="button" style="padding: 0.5%; width: 10%;">Send</button>
+        </form>
+    </div>
+
+    <h2 id="ResponseHeaderText" style="color: white; text-align: center;"></h2>
+
+    </div>
+
+    <script src="js/methods.js"></script>
+</body>
+</html>

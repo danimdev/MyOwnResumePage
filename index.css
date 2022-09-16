@@ -1,0 +1,115 @@
+body{
+    background-image: url("images/stars.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    overflow: overlay;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Menu{
+    text-align: center;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 50px;
+    width: 20%;
+    margin: 10px auto;
+}
+
+.gallery{
+    margin: 0px 0px;
+}
+
+.gallery img{
+    transition: 1s;
+    padding: 15px;
+    width: 400px;
+}
+
+.gallery img:hover{
+    transform: scale(1.1);
+}
+
+.Formular{
+    display: block;
+    text-align: center;
+}
+
+.DescriptionText{
+    border-radius: 50px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: orangered;
+    background-color: rgba(128, 128, 128, 0.7);
+    text-align: center;
+    margin: 25px auto;
+    width: 30%;
+}
+
+a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.3);
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(85, 85, 85, 0.9);
+  border-radius: 50px;
+}
+
+li{
+    list-style-type: none;
+    color: white;
+    font-size: 25px;
+    margin: 0px 0px 0px -40px;
+}
+
+.ProjectBorder{
+    background-color: transparent;
+    background: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-radius: 20px;
+    border-color: orangered;
+    margin: 0 auto;
+}
+
+.ContentBackground{
+    background-color: transparent;
+    background: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-radius: 20px;
+    border-color: orangered;
+    margin: 50px auto;
+    width: 30%;
+}

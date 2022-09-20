@@ -26,18 +26,18 @@ h2{
     background-color: blueviolet;
     padding: 10px;
     border-radius: 50px;
-    width: 20%;
     margin: 10px auto;
+    width: 20%;
 }
 
 .gallery{
-    margin: 0px 0px;
+    margin: auto;
 }
 
 .gallery img{
     transition: 1s;
     padding: 15px;
-    width: 400px;
+    width: 20%;
 }
 
 .gallery img:hover{
@@ -66,23 +66,19 @@ a{
     text-decoration: none;
 }
 
-/* width */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: transparent;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgba(136, 136, 136, 0.3);
   border-radius: 50px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(85, 85, 85, 0.9);
   border-radius: 50px;
